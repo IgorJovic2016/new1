@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  </head>
+<body>
+
+<div class="container">
+			<div class="row">
+				<div class="logo col-md-4">
+					<div>
+						<a href="#">
+							<img src="images/logo.png" alt="Etno naselje-Vrdnička kula,Etno restoran,Bungalovi,Etno selo, Hotel Premier Aqua">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="navmenu"style="text-align: center;">
+						<ul id="menu">
+							<li class="active" ><a href="#home">O nama</a></li>
+							<li><a href="#cenovnik">Cenovnik</a></li>
+							<li><a href="#galerija">Galerija</a></li>
+							<li class="last"><a href="#kontakt">Kontakt</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+</body>
+</html>
