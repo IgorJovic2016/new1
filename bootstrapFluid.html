@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+   <style>
+  body{position: relative; }
+   
+ /* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+  
+       
+  
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section4 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Babylon Apartman</a>
+    </div>
+    <div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a href="#section1">Pocetna</a></li>
+        <li> <a href="#section2">Kako do nas</a></li>
+        <li><a href="#section3">Galerija</a></li>
+        <li><a href="#section4">Kontakt</a></li>
+      </ul>
+     
+    </div>
+  </div>
+  </div>
+  
+</nav>
+  
+<div class="container">
+
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/Babylon2.jpg" alt="Babylon"  width="190" height="190">
+      <div class="carousel-caption">
+          <h3>Babylon</h3>
+          <p>Opustajuca i prijatna atmosfera Babylon apartmana.</p>
+        </div>
+    </div>
+
+    <div class="item">
+      <img src="images/Babylon3.jpg" alt="Logo"  width="190" height="190">
+      <div class="carousel-caption">
+          <h3>Unutrasnjost</h3>
+          <p>Sklad predmeta i boja za odmor duha i tela.</p>
+        </div>
+    </div>
+
+    <div class="item">
+      <img src="images/Babylon4.jpg" alt="Flower">
+       <div class="carousel-caption">
+          <h3>Unutrasnjost</h3>
+          <p>Sklad predmeta i boja za odmor duha i tela.</p>
+        </div>
+    </div>
+
+    <div class="item">
+      <img src="images/Babylon5.jpg" alt="Flower">
+       <div class="carousel-caption">
+          <h3>Unutrasnjost</h3>
+          <p>Sklad predmeta i boja za odmor duha i tela.</p>
+        </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+  <h3>Babylon apartman</h3>
+  <p>Na udaljenosti od 3.5 km od Kosutnjaka, vazdusne banje Beograda, daleko od gradske vreve, a na samo 7km od centra grada, ceka vas oaza mira. Ako ste u poslovnoj ili turistickoj poseti Beogradu, Babylon apartman je tu da odgovori svim vasim potrebama. Apartman se nalazi na 200m od gradskog prevoza koji vas povezuje sa Autobuskom i Zeleznickom stanicom, kao i Novim Beogradom. Po potrebi na raspolaganju vam je i parking mesto u dvoristu zgrade. Stan se sastoji od dnevne i spavace sobe, kuhinje i kupatila. Opremljen je udobnim i modernim namestajem, centralnim grejanjem, LCD TV 32", kablovskom Tv, WiFi-em, klimom i funkcionalnom i modernom kuhinjom. Zgrada poseduje lift. Smestajni kapacitet je do 4 osobe.
+  </p>
+</div>
+<div id="section1" class="container">
+  <h1>Kako do nas</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section2" class="container-fluid">
+  <h1>Kontakt</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section3" class="container-fluid">
+  <h1>Galerija</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section4" class="container-fluid">
+  <h1>Section 4 Submenu 1</h1>
+  </div>
+</body>
+</html>
